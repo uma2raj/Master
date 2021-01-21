@@ -1,0 +1,442 @@
+    1  java
+    2  java -version
+    3  sudo apt install openjdk-8-jre-headless
+    4  sudo apt install openjdk-8*
+    5  java -version
+    6  sudo apt install openjdk-8*
+    7  java -version
+    8  sudo apt install openjdk-8-jre-headless
+    9  sudo apt install openjdk-11-jre-headless
+   10  sudo apt-get update
+   11  sudo apt install openjdk-8-jre-headless
+   12  java -version
+   13  sudo apt-get install jenkins
+   14  wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add - 
+   15  sudo sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+   16  sudo apt-get install jenkins
+   17  sudo apt-get update
+   18  sudo apt-get install jenkins
+   19  sudo apt-get install git
+   20  vi /var/lib/jenkins/secrets/initialAdminPassword
+   21  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+   22  sudo apt-get install mvn
+   23  sudo apt-get install M3
+   24  sudo apt-get install maven
+   25  M3
+   26  cat /var/lib/jenkins/hudson.tasks.Maven.xml
+   27  cd /var/lib
+   28  ls
+   29  cd jenkins/
+   30  ll
+   31  which mvn
+   32  mvn
+   33  /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/M3/bin/mvn -Dmaven.test.failure.ignore clean package
+   34  mvn
+   35  sudo mvn -Dmaven.test.failure.ignore clean package
+   36  cd
+   37  mkdir
+   38  mkdir source 
+   39  cd source/
+   40  git 'https://github.com/jglick/simple-maven-project-with-tests.git
+   41  git 'https://github.com/jglick/simple-maven-project-with-tests.git'
+   42  ll
+   43  git 'https://github.com/jglick/simple-maven-project-with-tests.git'
+   44  git -get 'https://github.com/jglick/simple-maven-project-with-tests.git'
+   45  git pull 'https://github.com/jglick/simple-maven-project-with-tests.git'
+   46  vi tst.txt
+   47  awk -F ' ' (print $1 }' tst.txt
+   48  awk -F ' ' {print $1 }' tst.txt
+   49  awk -F ' ' '{print $1 }' tst.txt
+   50  cat tst.txt 
+   51  awk -F ' ' '{print $1 $2}' tst.txt
+   52  vi tst.txt 
+   53  awk -F '|' '{print $1 $2}' tst.txt
+   54  awk -F '|' '{print $2}' tst.txt
+   55  w
+   56  ll
+   57  cd /var/lib/
+   58  ll
+   59  cd jenkins/
+   60  ll
+   61  cd workspace/
+   62  ll
+   63  pwd
+   64  ll
+   65  cd ..
+   66  ls -alt | more
+   67  pwd
+   68  cd /tmp
+   69  ll
+   70  touch myfile
+   71  rm myfile 
+   72  ls -alt | more
+   73  qcd /var/lib/jenkins/
+   74  ll
+   75  ls
+   76  ls -alt
+   77  pwd
+   78  cd /var/lib/jenkins/
+   79  ll
+   80  ls -alt
+   81  ls -alt | more
+   82  cd work
+   83  ls -alt
+   84  cd workspace/
+   85  ll
+   86  cd ParseCrDir
+   87  ll
+   88  pwd
+   89  rm myfile 
+   90  pwd
+   91  sudo rm myfile
+   92  ll
+   93  cd tempdir/
+   94  ll
+   95  cd ..
+   96  ll
+   97  pwd
+   98  ll
+   99  cd source
+  100  ll
+  101  locate jenkins
+  102  cd /var/lib/
+  103  cd jenkins/
+  104  ll
+  105  pwd
+  106  ll
+  107  cd source/
+  108  ll
+  109  git init
+  110  ll
+  111  gid add .
+  112  git status
+  113  git -add add
+  114  git -add .
+  115  git add .
+  116  git status
+  117  ll
+  118  ls -al .git/
+  119  cd .git/
+  120  ll
+  121  cd branches/
+  122  ll
+  123  cd ..
+  124  find . -name tst.txt -print
+  125  cd ..
+  126  ll
+  127  git remote origin https://github.com/uma2raj/Master.git
+  128  git remote origin "https://github.com/uma2raj/Master.git"
+  129  git remote add origin "https://github.com/uma2raj/Master.git"
+  130  git commit -m "commit at 5.02PM"
+  131  git status
+  132  git push origin master
+  133  ll
+  134  cp tst.txt tst2.txt
+  135  vi tst.txt 
+  136  git status
+  137  git add .
+  138  git status
+  139  git commit -m "second commit at 5:09PM"
+  140  git push origin master 
+  141  git clone newrepo
+  142  cd ..
+  143  ll
+  144  mkdir clonerepo
+  145  cd clonerepo/
+  146  git clone https://github.com/uma2raj/Master.git
+  147  ll
+  148  cd Master/
+  149  ll
+  150  cd ..
+  151  touch newfile.txt
+  152  git add .
+  153  git init
+  154  git add .
+  155  git commit "new file added"
+  156  git commit -m "new file added"
+  157  git push origin master
+  158  git status
+  159  git push
+  160  ll
+  161  git origin mater "https://github.com/uma2raj/Master.git"
+  162  git origin master "https://github.com/uma2raj/Master.git"
+  163  git --help
+  164  git remote origin "https://github.com/uma2raj/Master.git"
+  165  git remote add "https://github.com/uma2raj/Master.git"
+  166  history | grep remotee
+  167  history | grep remote
+  168  git remote origin "https://github.com/uma2raj/Master.git"
+  169  git remote add origin "https://github.com/uma2raj/Master.git"
+  170  ll
+  171  git push origin master
+  172  git checkout master
+  173  git push origin master
+  174  git push origin master "https://github.com/uma2raj/Master.git"
+  175  ll
+  176  git pull https://github.com/uma2raj/Master.git
+  177  git push origin master
+  178  ll
+  179  cd m
+  180  cd Master/
+  181  ll
+  182  cd ..
+  183  mv newfile.txt Master/
+  184  cd Master/
+  185  git add .
+  186  git commit -m "adding new file"
+  187  git push origin master
+  188  cd /home/ubuntu/.docker/
+  189  ll
+  190  cd ..
+  191  chown ubuntu/ubuntu .docker/
+  192  chown ubuntu:ubuntu .docker/
+  193  exit
+  194  sudo apt-get update
+  195  sudo apt-get install docker.io
+  196  docker --version
+  197  docker pull ubuntu
+  198  sudo docker pull ubuntu
+  199  ll
+  200  sudo docker images
+  201  sudo docker -it -d ubuntu
+  202  sudo docker run -it -d ubuntu
+  203  sudo docker ps
+  204  sudo docker ps -a
+  205  sudo docker exec b74dd90ca0d0
+  206  sudo docker exec -it b74dd90ca0d0 bash
+  207  sudo docker ps
+  208  sudo docker stop b74dd90ca0d0
+  209  sudo docker ps
+  210  sudo docker ps -a
+  211  sudo docker images
+  212  sudo docker commit f643c72bc252 ubuntuV2
+  213  sudo docker ps
+  214  sudo docker run -it -d ubuntu
+  215  sudo docker ps
+  216  sudo docker commit 24ad1c5d27b9 ubuntuV2
+  217  sudo docker commit 24ad1c5d27b9 ubuntu.v2
+  218  sudo docker ps
+  219  sudo docker images
+  220  sudo docker run -it -d ubuntu.v2
+  221  sudo docker ps
+  222  sudo docker exec -it e0072c1ddcb5 bash
+  223  sudo docker commit 24ad1c5d27b9 ubuntu.v2
+  224  sudo docker exec -it e0072c1ddcb5 bash
+  225  sudo docker ps
+  226  sudo docker commit e0072c1ddcb5 ubuntu.v2
+  227  sudo docker images
+  228  sudo docker ps
+  229  sudo docker rm -f e0072c1ddcb5 24ad1c5d27b9
+  230  sudo docker ps
+  231  sudo docker images
+  232  sudo docker run -it -p 82:80 -d ubuntu.v2
+  233  sudo docker ps
+  234  sudo docker exec -it c014cf643250 bash
+  235  sudo docker ps
+  236  sudo docker stop c014cf643250
+  237  sudo docker run -it -d c014cf643250
+  238  sudo docker images
+  239  sudo docker run -it -d ubuntu.v2
+  240  sudo docker ps
+  241  sudo docker exec -it a39f14a4e35d bash
+  242  sudo docker ps
+  243  sudo docker rm a39f14a4e35d
+  244  sudo docker rm -f a39f14a4e35d
+  245  sudo docker run -it -p 82:80 -d ubuntu.v2
+  246  sudo docker ps
+  247  sudo docker exec -it c688c76e46d6 bash
+  248  sudo docker ps
+  249  sudo docker login
+  250  sudo docker push ubuntu.v2
+  251  sudo docker push uma2raj/ubuntu.v2
+  252  sudo docker images
+  253  sudo docker push ubuntu.v2
+  254  sudo docker tag ubuntu.v2 uma2raj/ubuntu.v2
+  255  sudo docker push uma2raj/ubuntu.v2
+  256  sudo usernmod -aG docker $USER
+  257  sudo usermod -aG docker $USER
+  258  cd /home/ubuntu/.docker/
+  259  ll
+  260  ls -lat /home/ubuntu/.docker/config.json
+  261  sudo ls -alt /home/ubuntu/.docker/config.json
+  262  sudo chown ubuntu:ubuntu /home/ubuntu/.docker/config.json
+  263  sudo ls -alt /home/ubuntu/.docker/config.json
+  264  sudo chmod 755 /home/ubuntu/.docker/config.json
+  265  sudo ls -alt /home/ubuntu/.docker/config.json
+  266  sudo cd /home/ubuntu/.docker/
+  267  sudo cd /home/ubuntu/
+  268  cd /home/ubuntu/
+  269  cd .docker/
+  270  ll
+  271  ls -alt
+  272  sudo -s
+  273  cd
+  274  cd docker/
+  275  ll
+  276  more Dockerfile 
+  277  docker images
+  278  sudo docker images
+  279  w
+  280  cat Dockerfile 
+  281  sudo apt-get -y install apache2
+  282  exit
+  283  ls
+  284  sudo curl -L "https://github.com/docker/compose/releases/download/1.23.1/docker-compose-$(uname -s)-$(unae -m)" -o /usr/local/bin/docker-comopse
+  285  sudo curl -L "https://github.com/docker/compose/releases/download/1.23.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-comopse
+  286  sudo chmod +x /usr/local/bin/docker-comopse
+  287  sudo docker-compose --version
+  288  sudo /usr/local/bin/docker-comopse --version
+  289  sudo apt-get update
+  290  sudo apt install software-properties-common
+  291  sudo apt-add-repository ppa:ansible/ansible
+  292  sudo apt-get ansible
+  293  sudo apt-get install ansible
+  294  cd /etc/ansible/
+  295  ll
+  296  more hosts 
+  297  more /etc/hosts
+  298  ping 34.216.227.34
+  299  mvn
+  300  mvn --version
+  301  vi testme.sh
+  302  ls -alt /home/ubuntu/testme.sh
+  303  chmod 755 testme.sh 
+  304  cd
+  305  ll
+  306  cd source/
+  307  ls
+  308  more tst.txt 
+  309  more tst2.txt 
+  310  w
+  311  df -kh
+  312  cd var
+  313  cd /var
+  314  ll
+  315  cd lib/
+  316  ll
+  317  cd jenkins/
+  318  ls
+  319  cd workspace/
+  320  ll
+  321  cd Test4
+  322  ll
+  323  npm
+  324  w
+  325  ll
+  326  ls -alt
+  327  w
+  328  locate nightwatch
+  329  which nightwatch
+  330  nightwatch
+  331  ls -alt
+  332  cd node_modules/
+  333  ll
+  334  cd bin
+  335  ls
+  336  cd .bin
+  337  ll
+  338  cd..
+  339  cd ..
+  340  ll
+  341  pwd
+  342  cd source/
+  343  ll
+  344  more filelist.properties 
+  345  vi filelist.properties 
+  346  vi testme.sh 
+  347  cd /var/lib/jenkins/workspace/Test5
+  348  ll
+  349  ls -alt /home/ubuntu/testme.sh
+  350  ll
+  351  cd testm
+  352  echo "R" | . $HOME/.profile
+  353  ls -alt $HOME/.profile
+  354  printf $date
+  355  printf $(date)
+  356  printf "$(date)"
+  357  printf "$(date)\n"
+  358  printf "\n$(date)\n"
+  359  printf "\n Start Deployment \n"
+  360  memo
+  361  memo test
+  362  memo="Start Testing"
+  363  printf "\n $memo \n"
+  364  memo=$(date)
+  365  printf "\n $memo \n"
+  366  memo=$hostname
+  367  printf "\n $memo \n"
+  368  memo=$HOST
+  369  printf "\n $memo \n"
+  370  memo=$HOSTNAME
+  371  printf "\n $memo \n"
+  372  memo=$(HOSTNAME)
+  373  memo=$(hostname)
+  374  printf "\n $memo \n"
+  375  echo $HOST
+  376  ll
+  377  pwd
+  378  ll
+  379  sudo chown jenkins:jenkins filelist.properties 
+  380  more filelist.properties 
+  381  awk -F"|" '{print $5}' filelist.properties } | grep sql
+  382  awk -F"|" '{print $5}' filelist.properties  | grep sql
+  383  vi filelist.properties 
+  384  sudo vi filelist.properties 
+  385  ll
+  386  awk -F"|" '{print $5}' filelist.properties  | grep SQL
+  387  more filelist.properties 
+  388  w
+  389  pwd
+  390  cd /var/lib/jenkins/
+  391  ll
+  392  cd workspace/
+  393  ll
+  394  cd Test5
+  395  ll
+  396  vi filelist.properties
+  397  ll
+  398  cd
+  399  cd source
+  400  vi filelist.properties
+  401  pwd
+  402  ll
+  403  cd..
+  404  ll
+  405  cd..
+  406  ls
+  407  cd..
+  408  ls
+  409  pwd
+  410  cd ..
+  411  ls
+  412  mv testme.sh source
+  413  cd source/
+  414  vi testme.sh 
+  415  ll
+  416  ./testme.sh 
+  417  ll
+  418  pwd
+  419  ./testme.sh 
+  420  vi testme.sh 
+  421  ./testme.sh 
+  422  ll
+  423  ./testme.sh 
+  424  ll
+  425  rm -r testme
+  426  rm -r testme1
+  427  ll
+  428  pwd
+  429  ll
+  430  cp filelist.properties /var/lib/jenkins/workspace/Test5
+  431  sudo cp filelist.properties /var/lib/jenkins/workspace/Test5
+  432  pwd
+  433  cd source/
+  434  ll
+  435  git add . 
+  436  git status
+  437  git commit -m "new code for testing"
+  438  history | greppush
+  439  history | grep push
+  440  git push origin branch1 "https://github.com/uma2raj/Master.git"
+  441  sudo git push origin branch1 "https://github.com/uma2raj/Master.git"
+  442  history > git_cm.lst
