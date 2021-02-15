@@ -6,7 +6,6 @@ git init
 git add .
 git commit -m "Initial commit"
 git flow init
-[defaults accepted]
 git flow release start 1.0
 echo "Line 1" >> test.txt
 git add .
