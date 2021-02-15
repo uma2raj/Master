@@ -1,4 +1,7 @@
 abc|def 
 fad|fdds
 fddfsa| fdsfdafds
+<<<<<<< HEAD
 new change
+=======
+>>>>>>> fdab18f... commit at 5.02PM
